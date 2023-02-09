@@ -22,7 +22,7 @@ export const Ul = styled.ul`
   gap: 3.2rem;
   a {
     color: #f9fafb;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   li:last-child {
