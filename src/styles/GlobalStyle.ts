@@ -14,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
   body{
     min-height: 100vh;
     font-size: 1.6rem;
+    overflow-x: hidden;
   }
   img{
     display: block;
