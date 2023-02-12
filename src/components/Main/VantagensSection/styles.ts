@@ -26,15 +26,7 @@ export const Card = styled.li`
   max-width: 35.2rem;
   border-radius: 3.2rem;
   background: #f9fafb;
-
-  &::after {
-    content: "";
-    position: absolute;
-    inset: -0.1rem;
-    background: linear-gradient(to right top, #fc00ff, #00dbde);
-    border-radius: inherit;
-    z-index: -1;
-  }
+  border: 0.2rem solid #A74AF4;
 
   h3 {
     font-size: 2rem;
@@ -45,6 +37,6 @@ export const Card = styled.li`
   p {
     color: #4a4a4a;
     line-height: 1.5;
-    font-family: 'Roboto', sans-serif;;
+    font-family: "Roboto", sans-serif;
   }
 `;
