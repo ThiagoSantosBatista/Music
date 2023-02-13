@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   background-color: #090909;
+  width: 100%;
 `;
 
-export const SectionBox = styled.section`
+export const SectionBox = styled.div`
   position: relative;
   margin: 0 auto 12rem;
   padding: 10.4rem 16rem;
@@ -27,20 +28,20 @@ export const SectionBox = styled.section`
     position: absolute;
     left: 50%;
     bottom: 0;
-    filter: blur(8rem);
+    filter: blur(10rem);
     transform: translateX(-70%);
   }
   .efeito2 {
     position: absolute;
     top: 0;
-    left: -11.5rem;
-    filter: blur(8rem);
+    left: 0;
+    filter: blur(10rem);
   }
   .efeito3 {
     position: absolute;
     top: 50%;
-    right: -11.5rem;
-    filter: blur(8rem);
+    right: 0;
+    filter: blur(10rem);
     transform: translateY(-60%);
   }
 
@@ -55,6 +56,25 @@ export const SectionBox = styled.section`
 
     h2 {
       margin-bottom: 8.8rem;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    margin: 0 auto 10.4rem;
+
+    h2 {
+      margin-bottom: 8.8rem;
+    }
+    .efeito {
+      width: 44.2rem;
+      height: auto;
+    }
+    .efeito2 {
+      width: 25.4rem;
+      height: auto;
+    }
+    .efeito3 {
+      width: 25.4rem;
+      height: auto;
     }
   }
 `;

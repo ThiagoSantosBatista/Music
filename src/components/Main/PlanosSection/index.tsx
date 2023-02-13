@@ -8,7 +8,7 @@ import * as S from "./styles";
 
 const PlanosSection = () => {
   return (
-    <S.Section>
+    <S.Section id="planos">
       <S.SectionBox>
         <Circulo className="efeito" />
         <Circulo2 className="efeito2" />

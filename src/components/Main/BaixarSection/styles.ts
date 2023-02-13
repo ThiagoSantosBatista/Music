@@ -5,8 +5,8 @@ export const Section = styled.section`
   grid-template-columns: auto 1fr;
   align-items: center;
   gap: 7.2rem;
-  margin: 0 auto 12rem;
-  padding: 0 16rem;
+  margin: 0 auto;
+  padding: 12rem 16rem;
   max-width: 144rem;
 
   img {
@@ -15,10 +15,10 @@ export const Section = styled.section`
   }
 
   @media screen and (max-width: 1440px) {
-    padding: 0 9%;
+    padding: 12rem 9%;
   }
   @media screen and (max-width: 1200px) {
-    padding: 0 5%;
+    padding: 12rem 5%;
   }
   @media screen and (max-width: 850px) {
     grid-template-columns: auto;
@@ -29,7 +29,7 @@ export const Section = styled.section`
     }
   }
   @media screen and (max-width: 768px) {
-    margin: 0 auto 10.4rem;
+    padding: 10.4rem 5%;
   }
 `;
 
@@ -50,6 +50,6 @@ export const ContentDiv = styled.div`
   }
 
   @media screen and (max-width: 850px) {
-   max-width: 60rem;
+    max-width: 60rem;
   }
 `;

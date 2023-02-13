@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-  margin: 0 auto 12rem;
+  margin: 0 auto;
   padding: 0 16rem;
   max-width: 144rem;
 
@@ -20,8 +20,6 @@ export const Section = styled.section`
     padding: 0 5%;
   }
   @media screen and (max-width: 768px) {
-    margin: 0 auto 10.4rem;
-
     h2 {
       margin-bottom: 8.8rem;
     }

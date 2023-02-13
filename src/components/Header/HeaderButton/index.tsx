@@ -10,13 +10,13 @@ const HeaderButton = ({ finalidade }: HeaderButtonProps) => {
   {
     if (finalidade === "entrar") {
       return (
-        <S.EntrarBtn href="entrar">
+        <S.EntrarBtn href="#entrar">
           <Person /> Entrar
         </S.EntrarBtn>
       );
     }
   }
-  return <S.CadastrarBtn href="cadastrar">Cadastre-se</S.CadastrarBtn>;
+  return <S.CadastrarBtn href="#cadastrar">Cadastre-se</S.CadastrarBtn>;
 };
 
 export default HeaderButton;

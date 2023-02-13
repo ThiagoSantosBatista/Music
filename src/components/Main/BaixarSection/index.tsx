@@ -5,7 +5,7 @@ import * as S from "./styles";
 
 const BaixarSection = () => {
   return (
-    <S.Section>
+    <S.Section id="baixar">
       <img src={CelularImg} alt="Celular" />
       <S.ContentDiv>
         <h2>O melhor aplicativo para escutar música no seu dispositivo.</h2>

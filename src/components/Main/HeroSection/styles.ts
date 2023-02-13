@@ -3,11 +3,10 @@ import styled from "styled-components";
 export const Section = styled.section`
   width: 100%;
   height: 60rem;
-  margin-bottom: 12rem;
+  margin: 7rem 0 12rem;
   background: linear-gradient(to right top, #fc00ff, #00dbde);
 
   @media screen and (max-width: 768px) {
-    height: 50rem;
     margin-bottom: 10.4rem;
   }
 `;
