@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
     font-size: 1.6rem;
     overflow-x: hidden;
   }
-  img{
+  img, svg{
     display: block;
     max-width: 100%;
   }

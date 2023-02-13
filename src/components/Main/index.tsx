@@ -3,7 +3,6 @@ import BaixarSection from "./BaixarSection";
 import FAQSection from "./FAQSection";
 import HeroSection from "./HeroSection";
 import PlanosSection from "./PlanosSection";
-import * as S from "./styles";
 import VantagensSection from "./VantagensSection";
 
 const Main = () => {
