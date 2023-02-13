@@ -15,6 +15,13 @@ export const HeaderBox = styled.div`
   margin: 0 auto;
   padding: 0 16rem;
   max-width: 144rem;
+
+  @media screen and (max-width: 1440px) {
+    padding: 0 9%;
+  }
+  @media screen and (max-width: 1200px) {
+    padding: 0 5%;
+  }
 `;
 
 export const Ul = styled.ul`
@@ -30,5 +37,9 @@ export const Ul = styled.ul`
       font-weight: 600;
       color: #1f2937;
     }
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none;
   }
 `;

@@ -11,7 +11,7 @@ export const Button = styled.button<ButtonProps>`
   border-radius: 3.2rem;
   color: ${(props) => props.color ? props.color : '#f9fafb'};
   background-color: ${(props) => props.background ? props.background : '#090909'};
-  font-size: 2rem;
+  font-size: clamp(1.6rem, 1.4054rem + 0.5405vw, 2rem);
   font-weight: 600;
   text-transform: uppercase;
   cursor: pointer;

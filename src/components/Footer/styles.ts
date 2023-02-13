@@ -18,14 +18,26 @@ export const FooterBox = styled.div`
     font-size: 1.4rem;
     line-height: 1.5;
   }
+
+  @media screen and (max-width: 1440px) {
+    padding: 3.2rem 9%;
+  }
+  @media screen and (max-width: 1200px) {
+    padding: 3.2rem 5%;
+  }
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const List = styled.ul`
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 2rem;
 
-  &.redes{
+  &.redes {
     gap: 1.6rem;
   }
 `;

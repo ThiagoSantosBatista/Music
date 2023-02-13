@@ -9,10 +9,24 @@ export const Section = styled.section`
 
   h2 {
     margin-bottom: 10.4rem;
-    font-size: 3rem;
+    font-size: clamp(2.4rem,2.1081rem + 0.8108vw,3rem);
     font-weight: 600;
     line-height: 1.2;
     text-align: center;
+  }
+
+  @media screen and (max-width: 1440px) {
+    padding: 0 9%;
+  }
+  @media screen and (max-width: 1200px) {
+    padding: 0 5%;
+  }
+  @media screen and (max-width: 768px) {
+    margin: 0 auto 10.4rem;
+    
+    h2{
+      margin-bottom: 8.8rem;
+    }
   }
 `;
 
@@ -38,8 +52,9 @@ export const Details = styled.details`
 
 export const Summary = styled.summary`
   position: relative;
+  padding-right: 6rem;
   margin-bottom: 3rem;
-  font-size: 2rem;
+  font-size: clamp(1.8rem, 1.6957rem + 0.2899vw, 2rem);
   font-weight: 500;
   list-style: none;
   cursor: pointer;

@@ -13,21 +13,43 @@ export const Section = styled.section`
     width: 21.2rem;
     height: auto;
   }
+
+  @media screen and (max-width: 1440px) {
+    padding: 0 9%;
+  }
+  @media screen and (max-width: 1200px) {
+    padding: 0 5%;
+  }
+  @media screen and (max-width: 850px) {
+    grid-template-columns: auto;
+    justify-content: center;
+    text-align: center;
+    img {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    margin: 0 auto 10.4rem;
+  }
 `;
 
 export const ContentDiv = styled.div`
   max-width: 70rem;
   h2 {
     margin-bottom: 1.6rem;
-    font-size: 3rem;
+    font-size: clamp(2.4rem, 2.1081rem + 0.8108vw, 3rem);
     font-weight: 600;
     line-height: 1.2;
   }
   p {
     margin-bottom: 4.8rem;
     color: #4a4a4a;
-    font-size: 2rem;
+    font-size: clamp(1.6rem, 1.4054rem + 0.5405vw, 2rem);
     line-height: 1.5;
     font-family: "Roboto", sans-serif;
+  }
+
+  @media screen and (max-width: 850px) {
+   max-width: 60rem;
   }
 `;

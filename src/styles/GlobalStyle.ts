@@ -16,9 +16,12 @@ const GlobalStyle = createGlobalStyle`
     font-size: 1.6rem;
     overflow-x: hidden;
   }
-  img, svg{
+  img{
     display: block;
     max-width: 100%;
+  }
+  svg{
+    display: block;
   }
   a{
     text-decoration: none;
