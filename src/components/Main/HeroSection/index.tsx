@@ -1,11 +1,11 @@
 import React from "react";
-import HeroImg from '../../../assets/heroImg.webp'
-import Button from '../../Button'
-import * as S from './styles'
+import HeroImg from "../../../assets/heroImg.webp";
+import Button from "../../Button";
+import * as S from "./styles";
 
 const HeroSection = () => {
   return (
-    <S.Section>
+    <S.Section id="home">
       <S.Box>
         <S.Content>
           <h1>

@@ -1,8 +1,8 @@
 import React from "react";
-import { ReactComponent as WifiSvg} from '../../../assets/wifi.svg'
-import { ReactComponent as SomSvg} from '../../../assets/som.svg'
-import { ReactComponent as SemAnuncioSvg} from '../../../assets/bloqueio.svg'
-import * as S from './styles'
+import { ReactComponent as WifiSvg } from "../../../assets/wifi.svg";
+import { ReactComponent as SomSvg } from "../../../assets/som.svg";
+import { ReactComponent as SemAnuncioSvg } from "../../../assets/bloqueio.svg";
+import * as S from "./styles";
 
 const VantagensSection = () => {
   return (

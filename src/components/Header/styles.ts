@@ -87,12 +87,34 @@ export const Ul = styled.ul`
   a {
     color: #f9fafb;
     font-weight: 500;
+    transition: all 0.3s;
+
+    svg path {
+      transition: all 0.3s;
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        color: #d400d6;
+
+        svg path {
+          fill: #d400d6;
+        }
+      }
+    }
   }
 
   li:last-child {
     a {
       font-weight: 600;
       color: #1f2937;
+      transition: all 0.3s;
+
+      @media (hover: hover) {
+        &:hover {
+          color: #d400d6;
+        }
+      }
     }
   }
 

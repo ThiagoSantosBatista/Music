@@ -33,7 +33,9 @@ const FaqItems = [
 const FAQSection = () => {
   return (
     <S.Section>
-      <h2>Perguntas frequentes.</h2>
+      <header>
+        <h2>Perguntas frequentes.</h2>
+      </header>
       {FaqItems.map(({ key, titulo, descricao }) => (
         <S.Details key={key}>
           <S.Summary>{titulo}</S.Summary>

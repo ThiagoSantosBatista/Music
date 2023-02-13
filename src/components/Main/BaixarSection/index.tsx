@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../../Button";
-import CelularImg from '../../../assets/celular.webp'
+import CelularImg from "../../../assets/celular.webp";
 import * as S from "./styles";
 
 const BaixarSection = () => {

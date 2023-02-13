@@ -17,6 +17,15 @@ export const FooterBox = styled.div`
     color: #f3f4f6;
     font-size: 1.4rem;
     line-height: 1.5;
+    transition: all 0.3s;
+
+    @media (hover: hover) {
+      &:hover {
+        color: #d400d6;
+        text-decoration: underline;
+        text-decoration-color: #d400d6;
+      }
+    }
   }
 
   @media screen and (max-width: 1440px) {
@@ -39,5 +48,15 @@ export const List = styled.ul`
 
   &.redes {
     gap: 1.6rem;
+
+    svg:hover path {
+      transition: all 0.3s;
+    }
+
+    @media (hover: hover) {
+      svg:hover path {
+        fill: #d400d6;
+      }
+    }
   }
 `;

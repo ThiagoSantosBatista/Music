@@ -21,17 +21,17 @@ const Footer = () => {
         </S.List>
         <S.List className="redes">
           <li>
-            <a href="#home">
+            <a href="#home" aria-label="Link para o Facebook">
               <Facebook />
             </a>
           </li>
           <li>
-            <a href="#home">
+            <a href="#home" aria-label="Link para o Instagram">
               <Instagram />
             </a>
           </li>
           <li>
-            <a href="#home">
+            <a href="#home" aria-label="Link para o Twitter">
               <Twitter />
             </a>
           </li>

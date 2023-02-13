@@ -9,7 +9,7 @@ export const Section = styled.section`
 
   h2 {
     margin-bottom: 10.4rem;
-    font-size: clamp(2.4rem,2.1081rem + 0.8108vw,3rem);
+    font-size: clamp(2.4rem, 2.1081rem + 0.8108vw, 3rem);
     font-weight: 600;
     line-height: 1.2;
     text-align: center;
@@ -23,8 +23,8 @@ export const Section = styled.section`
   }
   @media screen and (max-width: 768px) {
     margin: 0 auto 10.4rem;
-    
-    h2{
+
+    h2 {
       margin-bottom: 8.8rem;
     }
   }

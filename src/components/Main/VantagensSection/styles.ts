@@ -40,7 +40,7 @@ export const Card = styled.li`
   padding: 3.2rem;
   border-radius: 3.2rem;
   background: #f9fafb;
-  border: 0.2rem solid #a74af4;
+  border: 0.2rem solid #d400d6;
 
   h3 {
     font-size: clamp(1.8rem, 1.6957rem + 0.2899vw, 2rem);
