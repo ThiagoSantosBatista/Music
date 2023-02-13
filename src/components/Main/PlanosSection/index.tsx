@@ -1,8 +1,8 @@
 import React from "react";
 import { ReactComponent as CheckSvg } from "../../../assets/check.svg";
-import { ReactComponent as Bola } from "../../../assets/bola.svg";
-import { ReactComponent as Bola2 } from "../../../assets/bola2.svg";
-import { ReactComponent as Bola3 } from "../../../assets/bola3.svg";
+import { ReactComponent as Circulo } from "../../../assets/circulo.svg";
+import { ReactComponent as Circulo2 } from "../../../assets/circulo2.svg";
+import { ReactComponent as Circulo3 } from "../../../assets/circulo3.svg";
 import Button from "../../Button";
 import * as S from "./styles";
 
@@ -10,9 +10,9 @@ const PlanosSection = () => {
   return (
     <S.Section>
       <S.SectionBox>
-        <Bola className="efeito" />
-        <Bola2 className="efeito2" />
-        <Bola3 className="efeito3" />
+        <Circulo className="efeito" />
+        <Circulo2 className="efeito2" />
+        <Circulo3 className="efeito3" />
         <h2>Escolha o plano ideal para você.</h2>
         <S.List>
           <S.Card>

@@ -27,6 +27,7 @@ export const Ul = styled.ul`
 
   li:last-child {
     a {
+      font-weight: 600;
       color: #1f2937;
     }
   }

@@ -1,5 +1,6 @@
 import React from "react";
 import BaixarSection from "./BaixarSection";
+import FAQSection from "./FAQSection";
 import HeroSection from "./HeroSection";
 import PlanosSection from "./PlanosSection";
 import * as S from "./styles";
@@ -12,6 +13,7 @@ const Main = () => {
       <VantagensSection />
       <BaixarSection />
       <PlanosSection />
+      <FAQSection />
     </main>
   );
 };
